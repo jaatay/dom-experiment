@@ -3,10 +3,10 @@ body {
   text-align: center;
 }
 
-.divMain {
+#divMain {
   text-color: red;
   text-shadow: red 2px 2px;
-  text-size: 4em;
+  font-size: 2em;
   border-style: ridge;
   border-color: silver;
   margin: 10px;
