@@ -6,6 +6,9 @@ const colorButton = document.getElementById("primary");
 
 topDiv.addEventListener("click",() => {
   topDiv.style.color = "red";
+  setTimeout(function() {
+    topDiv.style.color = "black";
+  }, 1000);
 });
 
 dontClick.addEventListener("click", () => {
