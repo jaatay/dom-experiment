@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
   <meta charset = "utf=8">
   <link rel = "stylesheet" href = "styles.css">
   <title>DOM experiment</title>
-</head>
+  </head>
 
-<body>
-  <div id = "divMain">
-    <h1>Welcome to the lab</h1>
-    <a id = "topLink" href = "#">*Don't click this*</a>
-  </div>
-
-  <div id = "buttons">
+  <body>
+    <div id = "divMain">
+      <h1>Welcome to the lab</h1>
+      <a id = "topLink" href = "#">*Don't click this*</a>
+    </div>
+    <div id = "buttons">
     <input type = "text" id = "myTextInput">
     <button id = "primary">Input favorite color</button>
     <!--<button id = "secondary">Click This</button>
     <button id = "danger">Click This</button>-->
-  </div>
+    </div>
 
-  <div id = "dontClick">
-    <h1><strong>I told you not to click that!</strong></h1>
-  </div>
+    <div id = "dontClick">
+      <h1><strong>I told you not to click that!</strong></h1>
+    </div>
+
+    <div>
+      <h1>List of random things</h1>
+        <ul id = "listItems">
+          <li>Socks</li>
+          <li>Not-socks</li>
+          <li>Tea Party</li>
+          <li>Chthulu</li>
+      </ul>
+      <input type = "text" id = "addRandom">
+      <button id = "addRandomButton">Add a random thing!</button>
+      <button id = "removeRandomButton">Remove</button>
+    </div>
 
   <script src = "script.js"></script>
 </body>

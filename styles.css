@@ -12,3 +12,8 @@ body {
   margin: 10px;
 
 }
+
+#listItems {
+  color: green;
+  text-align: left;
+}
